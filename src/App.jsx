@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { CapetivateFooter } from "./CapetivateFooter";
 
 const stores = [
   { id: 1, name: "New Día Cannabis Co.", location: "Fenway", distance: "0.3 mi", rating: 4.9, reviews: 1847, tag: "Flagship", color: "#c8102e" },
@@ -214,6 +215,8 @@ export default function App() {
           </div>
         )}
       </div>
+
+      <CapetivateFooter />
 
       {/* Cart Drawer */}
       {checkoutStep && (
